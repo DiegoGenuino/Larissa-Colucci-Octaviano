@@ -285,8 +285,8 @@ export interface SiteConfig {
 }
 
 // Avaliações manuais extraídas do widget Google em https://direito-medico.com/, em 16/09/2026.
-// Perfil confirmado pelo link fornecido: https://maps.app.goo.gl/P8Ko4pUWvDbmtra78.
-// O comentário de Andreia é um trecho; os demais foram mantidos integralmente.
+// Perfil confirmado pelo link fornecido: https://maps.app.goo.gl/d3dHznMmr6brHiMp8.
+// Os três comentários foram mantidos integralmente, conforme a fonte.
 export const siteConfig = {
   "identity": {
     "siteName": "Dra. Larissa Colucci Octaviano | Direito da Saúde",
@@ -590,7 +590,7 @@ export const siteConfig = {
     "google": {
       "placeId": "",
       "limit": 3,
-      "reviewsUrl": "https://maps.app.goo.gl/P8Ko4pUWvDbmtra78"
+      "reviewsUrl": "https://maps.app.goo.gl/d3dHznMmr6brHiMp8"
     },
     "fallbacks": {
       "quote": "Comentário não disponível",
@@ -602,15 +602,15 @@ export const siteConfig = {
     },
     "manualItems": [
       {
-        "quote": "Dra. Larissa é uma excelente profissional, muito atenciosa e competente.",
+        "quote": "Dra. Larissa é uma excelente profissional, muito atenciosa e competente . Recomendo!",
         "name": "Andreia Fazan",
         "details": "Avaliação no Google",
         "rating": 5,
-        "avatar": "/images/google-icon.png",
+        "avatar": "/images/review-andreia-fazan.jpg",
         "avatarPosition": "center",
         "publishedAt": "2026-05-08T00:00:00Z",
         "publishedAtLabel": "08/05/2026",
-        "googleMapsUrl": "https://maps.app.goo.gl/P8Ko4pUWvDbmtra78",
+        "googleMapsUrl": "https://maps.app.goo.gl/d3dHznMmr6brHiMp8",
         "authorProfileUrl": ""
       },
       {
@@ -618,11 +618,11 @@ export const siteConfig = {
         "name": "Mirian Charamitara",
         "details": "Avaliação no Google",
         "rating": 5,
-        "avatar": "/images/google-icon.png",
+        "avatar": "/images/review-mirian-charamitara.jpg",
         "avatarPosition": "center",
         "publishedAt": "2026-03-08T00:00:00Z",
         "publishedAtLabel": "08/03/2026",
-        "googleMapsUrl": "https://maps.app.goo.gl/P8Ko4pUWvDbmtra78",
+        "googleMapsUrl": "https://maps.app.goo.gl/d3dHznMmr6brHiMp8",
         "authorProfileUrl": ""
       },
       {
@@ -630,11 +630,11 @@ export const siteConfig = {
         "name": "THAISSA PORTO",
         "details": "Avaliação no Google",
         "rating": 5,
-        "avatar": "/images/google-icon.png",
+        "avatar": "/images/review-thaissa-porto.jpg",
         "avatarPosition": "center",
         "publishedAt": "2025-11-28T00:00:00Z",
         "publishedAtLabel": "28/11/2025",
-        "googleMapsUrl": "https://maps.app.goo.gl/P8Ko4pUWvDbmtra78",
+        "googleMapsUrl": "https://maps.app.goo.gl/d3dHznMmr6brHiMp8",
         "authorProfileUrl": ""
       }
     ]

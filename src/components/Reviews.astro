@@ -38,8 +38,8 @@ const { items: reviews, hasGoogleReviews } = await resolveReviews(section, {
                 </svg>
               ))}
             </div>
-            {review.source === 'google' && review.googleMapsUrl ? (
-              <a class="review-source-link" href={review.googleMapsUrl} target="_blank" rel="noreferrer" aria-label={`Ver avaliação de ${review.name} no Google Maps`}>
+            {review.googleMapsUrl ? (
+              <a class="review-source-link" href={review.googleMapsUrl} target="_blank" rel="noreferrer" aria-label={`Ver ${review.source === 'google' ? `avaliação de ${review.name}` : 'avaliações'} no Google Maps`}>
                 <img class="review-google" src={platformLogo.src} width={platformLogo.width} height={platformLogo.height} alt="" aria-hidden="true" loading="lazy" decoding="async" />
               </a>
             ) : (
