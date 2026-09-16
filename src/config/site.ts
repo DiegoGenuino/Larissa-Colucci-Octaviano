@@ -284,6 +284,9 @@ export interface SiteConfig {
   deployment: DeploymentConfig;
 }
 
+// Avaliações manuais extraídas do widget Google em https://direito-medico.com/, em 16/09/2026.
+// Perfil confirmado pelo link fornecido: https://maps.app.goo.gl/P8Ko4pUWvDbmtra78.
+// O comentário de Andreia é um trecho; os demais foram mantidos integralmente.
 export const siteConfig = {
   "identity": {
     "siteName": "Dra. Larissa Colucci Octaviano | Direito da Saúde",
@@ -570,10 +573,10 @@ export const siteConfig = {
     ]
   },
   "reviewsSection": {
-    "enabled": false,
+    "enabled": true,
     "id": "avaliacoes",
-    "title": "Experiências de",
-    "highlightedTitle": "atendimento",
+    "title": "Avaliações no",
+    "highlightedTitle": "Google",
     "platformLogo": {
       "src": "/images/google-icon.png",
       "width": 41,
@@ -587,7 +590,7 @@ export const siteConfig = {
     "google": {
       "placeId": "",
       "limit": 3,
-      "reviewsUrl": "https://www.google.com/maps/search/?api=1&query=Larissa+Colucci+Octaviano+Jau+SP"
+      "reviewsUrl": "https://maps.app.goo.gl/P8Ko4pUWvDbmtra78"
     },
     "fallbacks": {
       "quote": "Comentário não disponível",
@@ -597,7 +600,44 @@ export const siteConfig = {
       "avatarPosition": "center",
       "publishedAtLabel": "Data não disponível"
     },
-    "manualItems": []
+    "manualItems": [
+      {
+        "quote": "Dra. Larissa é uma excelente profissional, muito atenciosa e competente.",
+        "name": "Andreia Fazan",
+        "details": "Avaliação no Google",
+        "rating": 5,
+        "avatar": "/images/google-icon.png",
+        "avatarPosition": "center",
+        "publishedAt": "2026-05-08T00:00:00Z",
+        "publishedAtLabel": "08/05/2026",
+        "googleMapsUrl": "https://maps.app.goo.gl/P8Ko4pUWvDbmtra78",
+        "authorProfileUrl": ""
+      },
+      {
+        "quote": "Excelente trabalho!\nPrestativa, trabalhando com muita clareza e responsabilidade",
+        "name": "Mirian Charamitara",
+        "details": "Avaliação no Google",
+        "rating": 5,
+        "avatar": "/images/google-icon.png",
+        "avatarPosition": "center",
+        "publishedAt": "2026-03-08T00:00:00Z",
+        "publishedAtLabel": "08/03/2026",
+        "googleMapsUrl": "https://maps.app.goo.gl/P8Ko4pUWvDbmtra78",
+        "authorProfileUrl": ""
+      },
+      {
+        "quote": "Excelente profissional! Atenciosa e competente.",
+        "name": "THAISSA PORTO",
+        "details": "Avaliação no Google",
+        "rating": 5,
+        "avatar": "/images/google-icon.png",
+        "avatarPosition": "center",
+        "publishedAt": "2025-11-28T00:00:00Z",
+        "publishedAtLabel": "28/11/2025",
+        "googleMapsUrl": "https://maps.app.goo.gl/P8Ko4pUWvDbmtra78",
+        "authorProfileUrl": ""
+      }
+    ]
   },
   "faqSection": {
     "id": "faq",
